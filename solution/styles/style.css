@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+  margin-left: 280px;
+  font-size: 30px;
+}
+
+.link {
+  margin-top: 15px;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#button {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: green;
+  color: black;
+  font-weight: bold;
+}
+
+#button:hover {
+  background-color: red;
+  color: white;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+h1 {
+  color: green;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+  font-size: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+}
+
+#button-2 {
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: green;
+  color: black;
+  font-weight: bold;
+}
+
+#button-2:hover {
+  background-color: red;
+  color: white;
+}
+
+img {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */
